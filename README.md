@@ -17,14 +17,19 @@ Or from the terminal: `./gradlew :composeApp:installDebug`
 
 ### iOS (Mac only)
 
-Needs Xcode 16+. No Apple account or signing setup for the simulator.
-
-1. Open `iosApp/iosApp.xcodeproj` in Xcode.
-2. Pick an iPhone simulator at the top, then press Run.
-
+Needs Xcode 16+ installed. No Apple account or signing setup for the simulator.
 The first build takes a few minutes while it compiles the shared Kotlin code.
-You can also run the `iosApp` configuration from Android Studio, as long as a simulator
-(not a real iPhone) is selected.
+
+**From Android Studio** (needs the Kotlin Multiplatform plugin: Settings → Plugins):
+
+1. Pick the `iosApp` run configuration.
+2. In the device list next to it, pick an iPhone simulator (not a real iPhone).
+3. Press Run.
+
+**From Xcode:**
+
+1. Open `iosApp/iosApp.xcodeproj`.
+2. Pick an iPhone simulator at the top, then press Run.
 
 Running on a real iPhone is the only case that needs an Apple team: set it under
 Signing & Capabilities in Xcode, or `TEAM_ID` in `iosApp/Configuration/Config.xcconfig`.
