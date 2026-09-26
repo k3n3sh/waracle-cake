@@ -5,6 +5,9 @@ sorts it by name and shows it.
 
 ## Running
 
+Android builds and runs on any machine (Windows, macOS, Linux). iOS is optional and only needs
+extra tools if you want to run it.
+
 ### Android
 
 Needs Android Studio (recent) with JDK 17+ and Android SDK 36. Nothing else to set up.
