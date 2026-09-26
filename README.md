@@ -15,9 +15,10 @@ Needs Android Studio (recent) with JDK 17+ and Android SDK 36. Nothing else to s
 
 Or from the terminal: `./gradlew :composeApp:installDebug`
 
-### iOS (Mac only)
+### iOS
 
-Needs Xcode 16+ installed. No Apple account or signing setup for the simulator.
+Needs a Mac with Xcode 16+ (Apple only builds iOS apps on macOS). No Apple account or signing
+setup for the simulator.
 The first build takes a few minutes while it compiles the shared Kotlin code.
 
 **From Android Studio** (needs the Kotlin Multiplatform plugin: Settings → Plugins):
