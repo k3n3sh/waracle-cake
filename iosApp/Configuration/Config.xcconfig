@@ -1,4 +1,4 @@
-// Needed for a physical device
+// Only needed for a real iPhone. The simulator works without it.
 TEAM_ID=
 
 PRODUCT_BUNDLE_IDENTIFIER=com.waracle.cakes.Cakes$(TEAM_ID)

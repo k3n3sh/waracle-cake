@@ -5,11 +5,29 @@ sorts it by name and shows it.
 
 ## Running
 
-You need JDK 17+, a recent Android Studio and Android SDK 36. Xcode 16+ for iOS.
+### Android
 
-- **Android:** open the project in Android Studio and run `composeApp`, or `./gradlew :composeApp:installDebug`
-- **iOS:** open `iosApp/iosApp.xcodeproj` and run. For a real device, set `TEAM_ID` in
-  `iosApp/Configuration/Config.xcconfig`.
+Needs Android Studio (recent) with JDK 17+ and Android SDK 36. Nothing else to set up.
+
+1. Clone the repo and open the project folder in Android Studio.
+2. Wait for Gradle sync to finish.
+3. Pick the `composeApp` run configuration and an emulator or phone, then press Run.
+
+Or from the terminal: `./gradlew :composeApp:installDebug`
+
+### iOS (Mac only)
+
+Needs Xcode 16+. No Apple account or signing setup for the simulator.
+
+1. Open `iosApp/iosApp.xcodeproj` in Xcode.
+2. Pick an iPhone simulator at the top, then press Run.
+
+The first build takes a few minutes while it compiles the shared Kotlin code.
+You can also run the `iosApp` configuration from Android Studio, as long as a simulator
+(not a real iPhone) is selected.
+
+Running on a real iPhone is the only case that needs an Apple team: set it under
+Signing & Capabilities in Xcode, or `TEAM_ID` in `iosApp/Configuration/Config.xcconfig`.
 
 ## Tests
 
