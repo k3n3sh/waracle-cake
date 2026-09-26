@@ -18,6 +18,7 @@ import kotlin.test.BeforeTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
+// TODO: tests for process death and each error type; Compose UI / screenshot tests for the screen states
 @OptIn(ExperimentalCoroutinesApi::class)
 class CakeListViewModelTest {
 

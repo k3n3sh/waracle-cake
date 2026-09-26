@@ -86,5 +86,5 @@ These are also marked as TODOs in the code:
 - Offline cache of the last response
 - Retry with backoff, and auto-retry when back online
 - Tablet layout
-- UI / screenshot tests
+- More tests: process death, each error type, Compose UI / screenshot tests
 - R8 for release builds
