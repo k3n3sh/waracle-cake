@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_title">Cakes</string>
+    <string name="refresh">Refresh</string>
+    <string name="retry">Retry</string>
+    <string name="retry_image">Image failed to load. Tap to retry</string>
+    <string name="close">Close</string>
+    <string name="loading_cakes">Loading cakes</string>
+    <string name="show_description">Show description</string>
+    <string name="no_cakes">There are no cakes to show right now.</string>
+    <string name="no_description">No description.</string>
+    <string name="error_no_internet">No internet connection. Connect and try again.</string>
+    <string name="error_network">Could not reach the server. Please try again.</string>
+    <string name="error_server">The server had a problem (%1$d). Please try again later.</string>
+    <string name="error_invalid_data">We got data we could not read. Please try again later.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+</resources>
