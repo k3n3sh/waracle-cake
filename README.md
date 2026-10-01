@@ -79,6 +79,28 @@ Clean Architecture with MVVM + UDF. The screen observes a single `CakeListUiStat
 
 Ktor, kotlinx.serialization, Coil 3, Koin, the JetBrains Lifecycle ViewModel, and Material 3.
 
+
+## AI Usage
+
+| Block | Engineer | AI | Lead / Review / Approved |
+|---|---|---|---|
+| Brief, scope, working rules | Wrote them | Understood context | Engineer |
+| Architecture (Clean Architecture, MVVM) | Chose it | Laid out the folders and classes | Engineer |
+| Library choices | Picked each one | Gradle setup and fixed setup error | Shared |
+| UI theme and branding | Brand colours, trimmed the design | Improved it | Shared |
+| API data review | Chose and wrote them | Validated and analysed the data (e.g. photo URL not working) | Shared |
+| Error handling (Outcome / DataError) | Chose and wrote them | Tested | Engineer |
+| Domain (models, use cases) | Designed and wrote them | Fixed errors | Engineer |
+| Data (API, DTOs, mapper, repository) | Designed and wrote them | Fixed errors | Engineer |
+| ViewModels and UI state | Wrote them | Fixed errors | Engineer |
+| Koin DI | Designed and wrote it | Helped share dependencies on the iOS side | Shared |
+| Compose screens | Wrote them | Fixed issues and improved UX | Shared |
+| Comments and README | Content direction | Drafted them | AI |
+| Test plan (5 tests, naming, simple style) | Set it | Code completion direction | Engineer |
+| Writing fakes | Wrote them | - | Engineer |
+| Build, lint and unit tests after each step | Ran them | Fixed errors | Engineer |
+| Testing on a real device | Did it; found a few issues, including rotation | - | Engineer |
+
 ## With more time
 
 These are also marked as TODOs in the code:
